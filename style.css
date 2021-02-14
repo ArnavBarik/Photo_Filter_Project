@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: yellow;
+}
+canvas{
+    animation-name: blinking;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes blinking{
+    from{box-shadow: 1px 1px 30px green;}
+    to{box-shadow: 1px 1px 30px blue;}
+}
